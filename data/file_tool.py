@@ -58,6 +58,4 @@ def gen_dataset(train_size, test_size):
         np.save('test_label',test_label)
 
 if __name__ == "__main__":
-    gen_dataset(0,100)
-    # x = np.load('test_label.npy')
-    # print(x.shape)
+    gen_dataset(10000,1000)
